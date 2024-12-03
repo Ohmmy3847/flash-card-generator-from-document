@@ -1,0 +1,54 @@
+I am a data science student with a passion for artificial intelligence, machine learning, and deep learning. My
+expertise lies in incremental regression and tabular data analysis. I possess a proven ability to innovate beyond
+traditional methods and deliver cutting-edge solutions. I am seeking an opportunity to lead and conduct
+groundbreaking research, customize novel models, and implement incremental learning techniques to continuously
+adapt and improve with new data.
+AI - Artificial Intelligence and EngineeringPROFESSIONAL PROFILE061-606-7974 66070184@kmitl.ac.th E27-25
+EDUCATION B.Sc. Information Technology - Data Science and Business Analytics 2023 - Present
+2017 - 2023GPAX: 4.00
+King Mongkut's Institute of Technology LadkrabangWatin Promfiy
+DATA SCIENCE
+GPAX: 3.96
+Assumption College Samutprakarn
+EXPERIENCE
+Lecturer at FutureXCoders Volunteer Teacher 2022
+Designed and delivered comprehensive lectures on basic Machine Learning.Data Science Internship at KBTG (K-LAB) - Apprentice Program16 July 2024 - Present
+Predicted land prices using deep learning on satellite images and geospatial data.
+Integrated and optimized models in the AI/ML sandbox.
+Validated and optimized data pipelines.
+Collaborated to implement models in banking projects.
+Top 10 Team: CHOICE IS YOURS 2023CERTIFICATIONS & NATIONAL AWARDS
+1st Runner Up: Innovation for Crime Combating Contest - I4C 2023
+Top 6 Team: ICT Challenge 2022Honorable Mention: Metaverse for Smart Factory Contest 2022
+Top 15 Team: JUMP THAILAND Hackathon 2024DSI, NECTEC
+(SCG, Microsoft, Central Group, BMW Group)
+FIBO - KMUTT
+SIT - KMUTT
+AIS, MSDHSDeveloped a deepfake detection system using a CNN ensemble model.
+This system effectively identified and flagged deepfake videos, enhancing crime detection and response efficiency.
+Created an AI-driven platform for underwater waste detection to aid in ocean conservation.
+Implemented YOLO object detection framework for precise and efficient detection of underwate r waste,
+leveraging computer vision and deep learning techniques.
+Developed an AI solution for factory operations in the Metaverse era.
+The project involved creating a virtual reality model for smart factories, which improved operational
+efficiency and worker training through immersive simulations and AI-driven process optimization.
+The project develops an image captioning solution for the blind using transformers and attention
+mechanisms to generate accurate, descriptive captions, enhancing accessibility.
+The project develops an image captioning solution for the blind using transformers and attention
+mechanisms to generate accurate, descriptive captions, enhancing accessibility.
+SUPERAI ENGINEER (SEASON 4) - ACTIVITY SUMMARY
+Experienced Machine Learning Engineer proficient in Python, with expertise in various ML models (GBM, SVM, KNN, ANN,
+Transformers). Strong skills in data structures, algorithms, and statistical methods. Actively participates in hackathons and
+competitions, contributi ng to innovative solutions and supporting team efforts in research, modeling, and idea pitching.
+Demonstrates continuous skill development and collaborative problem-solving in machine learning and data science.
+KEY PROJECTS:
+Credit Risk Modeling (Home Credit): Created a classification model to assess customer creditworthiness, leveraging LLMs
+and advanced ML techniques like GBM and ANN.
+Legal Act Classificatio n: Implemented multilingual models and TF-IDF for document verification, enhancing model
+performance with SVM, decision trees, and CatBoost.
+Model for Pneumonia Detection: Developed an add-on for diagnosing pneumonia by analyzing X-ray images of the
+lungs. The model used convolutional neural networks (CNNs) to enhance accuracy and speed in detection,
+reducing misdiagnosis risks.
+Automail Robot Arm: Developed an arm mimicking user hand movem ents for a camera-based hand movement
+detection system. Leveraging OpenCV and machine learning, the system minimized the risk of accidents by
+accurately replicating human gestures.PROJECTSTop 12 Team: Krungsri UniVerse X KMITL Hackathon 2024 Krungsri UniVerse, KMITL

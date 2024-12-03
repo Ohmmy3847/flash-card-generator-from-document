@@ -1,0 +1,29 @@
+[
+    {
+        "Name": "การวิเคราะห์และออกแบบระบบ",
+        "Image": "A picture of a person working on a computer with a flowchart on the screen, with a caption 'Designing a system to solve a problem'",
+        "Question": "อะไรคือการวิเคราะห์และออกแบบระบบ?",
+        "Answer": "การวิเคราะห์และออกแบบระบบคือกระบวนการสร้างระบบใหม่หรือปรับปรุงระบบเก่าให้ดีขึ้น โดยใช้เทคนิคและเครื่องมือต่างๆ เพื่อให้ระบบมีประสิทธิภาพและตรงตามความต้องการของผู้ใช้",
+        "Sound": "คลิก-คลิก-คลิก (Click-click-click)",
+        "Story": "เรื่องราวของน้องๆ ที่ต้องการสร้างระบบใหม่เพื่อช่วยเหลือผู้คนในพื้นที่ของตนเอง",
+        "Character": "น้องอินโน (Inno) นักออกแบบระบบหน้าใหม่"
+    },
+    {
+        "Name": "การสร้างแบบจำลองข้อมูล",
+        "Image": "A picture of a person drawing a data flow diagram, with a caption 'Creating a data flow diagram to visualize the system'",
+        "Question": "อะไรคือแบบจำลองข้อมูล?",
+        "Answer": "แบบจำลองข้อมูลคือการแสดงข้อมูลในรูปแบบกราฟิกเพื่อช่วยให้เข้าใจระบบและกระบวนการทำงานของระบบได้ดีขึ้น",
+        "Sound": "ฟลาว-ฟลาว (Flow-flow)",
+        "Story": "น้องอินโนเริ่มสร้างแบบจำลองข้อมูลเพื่อช่วยให้เข้าใจระบบที่ต้องการสร้าง",
+        "Character": "น้องอินโน (Inno) นักออกแบบระบบหน้าใหม่"
+    },
+    {
+        "Name": "การตรวจสอบแบบจำลองข้อมูล",
+        "Image": "A picture of a person checking a data flow diagram, with a caption 'Validating the data flow diagram to ensure it is correct'",
+        "Question": "ทำไมต้องตรวจสอบแบบจำลองข้อมูล?",
+        "Answer": "การตรวจสอบแบบจำลองข้อมูลช่วยให้แน่ใจว่าแบบจำลองข้อมูลถูกต้องและไม่มีข้อผิดพลาด ซึ่งจะช่วยให้ระบบทำงานได้อย่างมีประสิทธิภาพ",
+        "Sound": "เช็ค-เช็ค-เช็ค (Check-check-check)",
+        "Story": "น้องอินโนตรวจสอบแบบจำลองข้อมูลเพื่อให้แน่ใจว่าระบบที่สร้างขึ้นจะทำงานได้อย่างมีประสิทธิภาพ",
+        "Character": "น้องอินโน (Inno) นักออกแบบระบบหน้าใหม่"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "Name": "ระบบการวิเคราะห์และออกแบบ",
+        "Image": "A picture of a person analyzing and designing a system with various icons and diagrams in the background.",
+        "Question": "อะไรคือระบบการวิเคราะห์และออกแบบ?",
+        "Answer": "ระบบการวิเคราะห์และออกแบบคือกระบวนการในการสร้างระบบใหม่หรือปรับปรุงระบบเก่าให้เหมาะสมกับความต้องการขององค์กร",
+        "Sound": "Click!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "การสร้างแบบจำลองข้อมูล",
+        "Image": "A picture of a person creating a data flow diagram with various symbols and arrows.",
+        "Question": "อะไรคือแบบจำลองข้อมูล?",
+        "Answer": "แบบจำลองข้อมูลคือการแสดงภาพของข้อมูลที่ไหลผ่านระบบ",
+        "Sound": "Flow!",
+        "Story": "เรื่องราวของการสร้างแบบจำลองข้อมูล",
+        "Character": "นักออกแบบข้อมูล"
+    },
+    {
+        "Name": "องค์ประกอบของ DFD",
+        "Image": "A picture of a DFD with various components such as processes, data flows, data stores, and external entities.",
+        "Question": "อะไรคือองค์ประกอบของ DFD?",
+        "Answer": "องค์ประกอบของ DFD ได้แก่ กระบวนการ ข้อมูลที่ไหลผ่าน ฐานข้อมูล และหน่วยงานภายนอก",
+        "Sound": "Build!",
+        "Story": "เรื่องราวของการสร้าง DFD",
+        "Character": "นักสร้าง DFD"
+    },
+    {
+        "Name": "การสร้าง DFD",
+        "Image": "A picture of a person creating a DFD with various tools and techniques.",
+        "Question": "วิธีการสร้าง DFD?",
+        "Answer": "การสร้าง DFD ต้องเริ่มจากการวิเคราะห์ความต้องการและสร้างแบบจำลองข้อมูล",
+        "Sound": "Create!",
+        "Story": "เรื่องราวของการสร้าง DFD",
+        "Character": "นักสร้าง DFD"
+    },
+    {
+        "Name": "ประเภทของ DFD",
+        "Image": "A picture of various types of DFDs such as logical and physical DFDs.",
+        "Question": "มี DFD ประเภทไหนบ้าง?",
+        "Answer": "มี DFD ประเภทLogical และ Physical",
+        "Sound": "Types!",
+        "Story": "เรื่องราวของการสร้าง DFD",
+        "Character": "นักสร้าง DFD"
+    },
+    {
+        "Name": "การวิเคราะห์ DFD",
+        "Image": "A picture of a person analyzing a DFD with various tools and techniques.",
+        "Question": "วิธีการวิเคราะห์ DFD?",
+        "Answer": "การวิเคราะห์ DFD ต้องตรวจสอบความถูกต้องและความสมบูรณ์ของแบบจำลอง",
+        "Sound": "Analyze!",
+        "Story": "เรื่องราวของการสร้าง DFD",
+        "Character": "นักวิเคราะห์ DFD"
+    },
+    {
+        "Name": "การสร้าง Context Diagram",
+        "Image": "A picture of a person creating a context diagram with various symbols and arrows.",
+        "Question": "อะไรคือ Context Diagram?",
+        "Answer": "Context Diagram คือการแสดงภาพของระบบในระดับบน",
+        "Sound": "Context!",
+        "Story": "เรื่องราวของการสร้าง DFD",
+        "Character": "นักสร้าง DFD"
+    },
+    {
+        "Name": "การสร้าง Level 0 Diagram",
+        "Image": "A picture of a person creating a level 0 diagram with various symbols and arrows.",
+        "Question": "อะไรคือ Level 0 Diagram?",
+        "Answer": "Level 0 Diagram คือการแสดงภาพของระบบในระดับกลาง",
+        "Sound": "Level 0!",
+        "Story": "เรื่องราวของการสร้าง DFD",
+        "Character": "นักสร้าง DFD"
+    },
+    {
+        "Name": "การสร้าง Level 1 Diagram",
+        "Image": "A picture of a person creating a level 1 diagram with various symbols and arrows.",
+        "Question": "อะไรคือ Level 1 Diagram?",
+        "Answer": "Level 1 Diagram คือการแสดงภาพของระบบในระดับล่าง",
+        "Sound": "Level 1!",
+        "Story": "เรื่องราวของการสร้าง DFD",
+        "Character": "นักสร้าง DFD"
+    },
+    {
+        "Name": "การนำ DFD ไปใช้",
+        "Image": "A picture of a person using a DFD to improve a system with various icons and diagrams in the background.",
+        "Question": "วิธีการนำ DFD ไปใช้?",
+        "Answer": "การนำ DFD ไปใช้ในการปรับปรุงและพัฒนาระบบ",
+        "Sound": "Apply!",
+        "Story": "เรื่องราวของการนำ DFD ไปใช้",
+        "Character": "นักพัฒนา DFD"
+    }
+]

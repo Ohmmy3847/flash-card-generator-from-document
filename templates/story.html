@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Story and Flashcard</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>{{ card.Name }}</h1>
+      <div class="story-section">
+        <h2>Story</h2>
+        <p>{{ card.Story }}</p>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">
+            <img
+              src="data:image/png;base64,{{ card.Image }}"
+              alt="{{ card.Name }}"
+              class="flashcard-image"
+            />
+            <p>{{ card.Question }}</p>
+          </div>
+          <div class="flashcard-back">
+            <p class="answer">{{ card.Answer }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        {% if index > 0 %}
+        <a href="{{ url_for('show_story', index=index-1) }}" class="btn"
+          >Previous</a
+        >
+        {% endif %}
+        <span class="page-indicator">{{ index + 1 }} / {{ total }}</span>
+        {% if index < total - 1 %}
+        <a href="{{ url_for('show_story', index=index+1) }}" class="btn"
+          >Next</a
+        >
+        {% endif %}
+      </div>
+      <div class="chat-section">
+        <h2>Ask a Question</h2>
+        <form id="chat-form">
+          <input
+            type="text"
+            id="question-input"
+            placeholder="Ask a question about the content"
+            required
+          />
+          <button type="submit" class="btn">Ask</button>
+        </form>
+        <div id="chat-response"></div>
+      </div>
+      <a href="{{ url_for('show_characters') }}" class="btn"
+        >Back to Characters</a
+      >
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

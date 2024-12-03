@@ -1,0 +1,92 @@
+[
+    {
+        "Name": "ระบบการวิเคราะห์และออกแบบ",
+        "Image": "A picture of a person working on a computer with a flowchart on the screen, with a puzzled expression.",
+        "Question": "อะไรคือระบบการวิเคราะห์และออกแบบ?",
+        "Answer": "ระบบการวิเคราะห์และออกแบบ คือ การใช้แบบจำลองเพื่อสร้างและพัฒนาระบบในธุรกิจและพัฒนาระบบสารสนเทศ",
+        "Sound": "Click!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "การสร้างแบบจำลองข้อมูล",
+        "Image": "A picture of a person holding a puzzle piece, with a lightbulb moment.",
+        "Question": "อะไรคือการสร้างแบบจำลองข้อมูล?",
+        "Answer": "การสร้างแบบจำลองข้อมูล คือ การใช้แบบจำลองเพื่อสร้างและพัฒนาข้อมูลในระบบ",
+        "Sound": "A-ha!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "การสร้างแบบจำลองกระบวนการ",
+        "Image": "A picture of a person drawing a flowchart, with arrows and boxes.",
+        "Question": "อะไรคือการสร้างแบบจำลองกระบวนการ?",
+        "Answer": "การสร้างแบบจำลองกระบวนการ คือ การใช้แบบจำลองเพื่อสร้างและพัฒนกระบวนการในระบบ",
+        "Sound": "Flow!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "แผนภาพการไหลของข้อมูล",
+        "Image": "A picture of a data flow diagram, with arrows and boxes.",
+        "Question": "อะไรคือแผนภาพการไหลของข้อมูล?",
+        "Answer": "แผนภาพการไหลของข้อมูล คือ แบบจำลองกราฟฟิกของการไหลของข้อมูลในระบบ",
+        "Sound": "Flowing!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "องค์ประกอบของแผนภาพการไหลของข้อมูล",
+        "Image": "A picture of a person pointing to a data flow diagram, highlighting the different components.",
+        "Question": "อะไรคือองค์ประกอบของแผนภาพการไหลของข้อมูล?",
+        "Answer": "องค์ประกอบของแผนภาพการไหลของข้อมูล คือ กระบวนการ, การไหลของข้อมูล, ฐานข้อมูล, และหน่วยงานภายนอก",
+        "Sound": "Components!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "การสร้างแผนภาพการไหลของข้อมูล",
+        "Image": "A picture of a person creating a data flow diagram, with a pencil and paper.",
+        "Question": "วิธีการสร้างแผนภาพการไหลของข้อมูล?",
+        "Answer": "การสร้างแผนภาพการไหลของข้อมูล คือ การสร้างรายชื่อกิจกรรมทางธุรกิจ, การสร้างแผนภาพบริบท, การสร้างแผนภาพการไหลของข้อมูลสำหรับแต่ละกรณีการใช้งาน",
+        "Sound": "Creating!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "การตรวจสอบแผนภาพการไหลของข้อมูล",
+        "Image": "A picture of a person checking a data flow diagram, with a magnifying glass.",
+        "Question": "วิธีการตรวจสอบแผนภาพการไหลของข้อมูล?",
+        "Answer": "การตรวจสอบแผนภาพการไหลของข้อมูล คือ การตรวจสอบข้อผิดพลาดทางไวยากรณ์และข้อผิดพลาดทางความหมาย",
+        "Sound": "Checking!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "ประเภทของแผนภาพการไหลของข้อมูล",
+        "Image": "A picture of a person holding two different data flow diagrams, with a comparison chart.",
+        "Question": "อะไรคือประเภทของแผนภาพการไหลของข้อมูล?",
+        "Answer": "ประเภทของแผนภาพการไหลของข้อมูล คือ แผนภาพการไหลของข้อมูลเชิงตรรกะและแผนภาพการไหลของข้อมูลเชิงกายภาพ",
+        "Sound": "Types!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "ความสำคัญของแผนภาพการไหลของข้อมูล",
+        "Image": "A picture of a person highlighting the importance of data flow diagrams, with a red marker.",
+        "Question": "อะไรคือความสำคัญของแผนภาพการไหลของข้อมูล?",
+        "Answer": "ความสำคัญของแผนภาพการไหลของข้อมูล คือ การใช้แผนภาพการไหลของข้อมูลเพื่อสร้างและพัฒนาระบบ",
+        "Sound": "Important!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    },
+    {
+        "Name": "การประยุกต์ใช้แผนภาพการไหลของข้อมูล",
+        "Image": "A picture of a person applying data flow diagrams in a real-world scenario, with a cityscape in the background.",
+        "Question": "วิธีการประยุกต์ใช้แผนภาพการไหลของข้อมูล?",
+        "Answer": "การประยุกต์ใช้แผนภาพการไหลของข้อมูล คือ การใช้แผนภาพการไหลของข้อมูลเพื่อสร้างและพัฒนาระบบในธุรกิจและพัฒนาระบบสารสนเทศ",
+        "Sound": "Applying!",
+        "Story": "เรื่องราวของการสร้างระบบใหม่ (ต่อจาก flashcard ก่อนหน้า)",
+        "Character": "นักวิเคราะห์ระบบ"
+    }
+]

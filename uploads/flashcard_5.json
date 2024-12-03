@@ -1,0 +1,92 @@
+[
+    {
+        "Name": "การวิเคราะห์และออกแบบระบบสารสนเทศ",
+        "Image": "A picture of a person working on a computer with a flowchart in the background",
+        "Question": "อะไรคือการวิเคราะห์และออกแบบระบบสารสนเทศ?",
+        "Answer": "การวิเคราะห์และออกแบบระบบสารสนเทศคือกระบวนการในการสร้างระบบสารสนเทศที่มีประสิทธิภาพและตรงตามความต้องการของผู้ใช้",
+        "Sound": "คลิก",
+        "Story": "เรื่องราวของน้องๆ ที่ต้องการสร้างระบบสารสนเทศเพื่อช่วยเหลือการทำงาน",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "การสร้างแบบจำลองกระบวนการ",
+        "Image": "A picture of a flowchart with arrows and boxes",
+        "Question": "อะไรคือการสร้างแบบจำลองกระบวนการ?",
+        "Answer": "การสร้างแบบจำลองกระบวนการคือการสร้างรูปแบบการทำงานของระบบสารสนเทศโดยใช้เครื่องมือต่างๆ เช่น Data Flow Diagram",
+        "Sound": "ฟลาว",
+        "Story": "น้องๆ ต้องการสร้างแบบจำลองกระบวนการเพื่อช่วยเหลือการทำงาน",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "Data Flow Diagram (DFD)",
+        "Image": "A picture of a DFD with processes, data flows, data stores, and external entities",
+        "Question": "อะไรคือ Data Flow Diagram (DFD)?",
+        "Answer": "DFD คือการแสดงภาพการไหลของข้อมูลผ่านระบบสารสนเทศ โดยแสดงกระบวนการและข้อมูลที่เกี่ยวข้อง",
+        "Sound": "ดาต้า",
+        "Story": "น้องๆ ต้องการสร้าง DFD เพื่อช่วยเหลือการทำงาน",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "องค์ประกอบของ DFD",
+        "Image": "A picture of the elements of DFD, including process, data flow, data store, and external entity",
+        "Question": "อะไรคือองค์ประกอบของ DFD?",
+        "Answer": "องค์ประกอบของ DFD คือ กระบวนการ ข้อมูลไหล ข้อมูลเก็บ และหน่วยงานภายนอก",
+        "Sound": "เอลิเมนต์",
+        "Story": "น้องๆ ต้องการเรียนรู้เกี่ยวกับองค์ประกอบของ DFD",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "Context Diagram",
+        "Image": "A picture of a context diagram with a system and its environment",
+        "Question": "อะไรคือ Context Diagram?",
+        "Answer": "Context Diagram คือการแสดงภาพระบบและ環境ที่เกี่ยวข้อง",
+        "Sound": "คอนเท็กซ์",
+        "Story": "น้องๆ ต้องการสร้าง Context Diagram เพื่อช่วยเหลือการทำงาน",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "Level 0 Diagram",
+        "Image": "A picture of a level 0 diagram with high-level processes",
+        "Question": "อะไรคือ Level 0 Diagram?",
+        "Answer": "Level 0 Diagram คือการแสดงภาพกระบวนการระดับสูงของระบบ",
+        "Sound": "เลเวล",
+        "Story": "น้องๆ ต้องการสร้าง Level 0 Diagram เพื่อช่วยเหลือการทำงาน",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "การสร้าง DFD",
+        "Image": "A picture of a person creating a DFD",
+        "Question": "วิธีการสร้าง DFD?",
+        "Answer": "การสร้าง DFD คือการเริ่มต้นจากข้อมูลในกรณีการใช้งานและคำจำกัดความความต้องการ",
+        "Sound": "ครีเอท",
+        "Story": "น้องๆ ต้องการเรียนรู้เกี่ยวกับการสร้าง DFD",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "การตรวจสอบ DFD",
+        "Image": "A picture of a person checking a DFD",
+        "Question": "วิธีการตรวจสอบ DFD?",
+        "Answer": "การตรวจสอบ DFD คือการตรวจสอบความถูกต้องของ DFD",
+        "Sound": "เช็ค",
+        "Story": "น้องๆ ต้องการเรียนรู้เกี่ยวกับการตรวจสอบ DFD",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "Logical DFD",
+        "Image": "A picture of a logical DFD",
+        "Question": "อะไรคือ Logical DFD?",
+        "Answer": "Logical DFD คือการแสดงภาพการไหลของข้อมูลในระดับลอจิก",
+        "Sound": "ลอจิก",
+        "Story": "น้องๆ ต้องการเรียนรู้เกี่ยวกับ Logical DFD",
+        "Character": "น้องอิ๊ง"
+    },
+    {
+        "Name": "Physical DFD",
+        "Image": "A picture of a physical DFD",
+        "Question": "อะไรคือ Physical DFD?",
+        "Answer": "Physical DFD คือการแสดงภาพการไหลของข้อมูลในระดับฟิสิก",
+        "Sound": "ฟิสิก",
+        "Story": "น้องๆ ต้องการเรียนรู้เกี่ยวกับ Physical DFD",
+        "Character": "น้องอิ๊ง"
+    }
+]

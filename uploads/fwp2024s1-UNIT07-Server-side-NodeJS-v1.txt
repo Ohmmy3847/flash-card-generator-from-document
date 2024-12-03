@@ -1,0 +1,223 @@
+Fundamental Web Programming
+Asst. Prof. Manop Phankokkruad, Ph.D.
+School of Information Technology
+King Mongkut’s Institute of Technology LadkrabangServer -side Development with
+Node.JS
+Outline
+•Server -side Development
+•Introduction to Node.JS
+•Using Terminal & Command line
+•A Simple Web Server
+•Routing
+•Serving Static Resources
+Introduction
+▪Standard web sites operate on a request/response
+basis.
+▪A user requests a resource such as HTML
+document.
+▪Server responds by delivering the document to the
+client.
+▪The client processes the document and displays it
+to user.
+Introduction
+Server -side Technology
+HTTP/HTTPS▪HTML
+▪CSS
+▪JavaScript
+▪DOM
+ServerClient
+Client -side
+TechnologyServer -side
+TechnologyRequest Packet
+(GET or POST)
+Response Packet
+Server -side Scripting
+▪Scripts can be written in any of several server -side
+scripting languages that are available.
+▪Server -side scripting is often used to provide a
+customized interface for the user.
+▪Server -side scripting focuses on what content is
+delivered, how it’s delivered, and how it’s stored,
+among other things.Server -side scripting is a technique used in web
+development which involves employing scripts on a
+web server which produce a response customized
+for each user’s request to the website.
+1
+Server -side Scripting
+Figure : Difference Between Server -side Scripting and
+Client -side Scripting
+Server -side Scripting
+▪PHP, Node.js and ASP.NET are the main
+technologies for server -side scripting.
+▪The script is interpreted by the server meaning that
+it will always work the same way.
+▪Server -side scripts are never seen by the user . They
+run on the server and generate results which are
+sent to the user.
+▪Running all these scripts puts a lot of load onto a
+server but none on the user's system.
+Server -side Scripting Languages
+There are several server -side scripting languages
+available, including:
+▪ASP and ASP.NET (*.asp , *. aspx)
+▪Google Apps Script (*. gs)
+▪Java (*. jsp) via JavaServer Pages
+▪JavaScript using Server -side JavaScript (*. ssjs, *.js)
+such as Node.JS
+▪PHP (*. php)
+▪Ruby (*. rb, *.rbw) such as Ruby on Rails
+▪Python (*. py) (using Flask, Django)
+Introduction to
+Node.JS
+Introduction to Node.JS
+Node.JS is a server -side runtime environment built on
+Google Chrome's JavaScript Engine (V8 Engine).
+Node.js is a cross -platform, open -source, back -end
+JavaScript runtime environment, that executes
+JavaScript code outside a web browser.
+▪Node.js is used for server -side programming with
+JavaScript. Hence, you can use a single
+programming language (JavaScript) for both front -
+end and back -end development.
+▪Node.js implements asynchronous execution of
+tasks in a single thread with async and await
+technique.
+2
+DOM API
+ImplementationIntroduction to Node.JS
+The JavaScript interpreter ("engine") that Chrome
+uses to interpret, compile, and execute JavaScript
+code.
+Parser
+JavaScript
+RuntimeExecution
+Engine
+Garbage
+Collector
+Introduction to Node.JS
+Node.JS can be installed on different OS platforms
+such as Windows, Linux, Mac OS X, etc. You need the
+following tools on your computer.
+▪The Node.JS binary installer
+▪Node Package Manager (NPM)
+▪IDE or Text Editor
+Introduction to Node.JS
+The Node Ecosystem
+▪Node.JS is the software that enables JavaScript to
+run on the server, uncoupled from a browser,
+which in turn allows frameworks written in
+JavaScript (like Express) to be used.
+▪Another important component is the database.
+The simplest of web apps will need a database,
+and there are available for all the major relational
+databases such as MySQL, MariaDB, SQLite,
+PostgreSQL, Oracle, SQL Server, and MongoDB.
+Using the Terminal
+Terminal (also called a console or command prompt)
+is the power and productivity tool. Using Node.JS
+highly recommend you spend some time
+familiarizing yourself with your terminal of choice. I
+recommend installing a more sophisticated terminal
+such as ConsoleZ , ConEmu , or PowerShell.
+$ mkdir <your-folder-name>
+$ cd <your -folder-name>
+$ node < js-filename>
+$ nodemon <js-filename>
+3
+Node Package Manager
+npm (Node Package Manager) is Command -line tool
+that lets you install packages (libraries and tools)
+written in JavaScript and compatible with NodeJS.
+npm install package -name : This downloads the
+package -name library into a node_modules folder.
+npm uninstall package -name : This removes the
+package -name library from the node_modules folder,
+deleting the folder if necessary.
+$ npm install <package -name>
+$ npm install express
+$ npm uninstall express
+Node Package Manager
+To install one or more packages, use the following:
+To uninstall one or more locally installed packages:
+NPM : Setting up a package configuration
+Node.js package configurations are contained in a file
+called package.json that you can find at the root of
+each project. You can setup a brand new
+configuration file with default values use:
+To install a package and automatically save it to your
+package.json , use:
+Node.JS - Callbacks Concept
+What is Callback?
+▪A Callback in Node.js is an asynchronous equivalent
+for a function. It is a special type of function passed
+as an argument to another function. Callbacks help
+us make asynchronous calls.
+▪The callback is called when the function that
+contains the callback as an argument completes its
+execution and allows the code in the callback to run
+in the meantime. This makes Node.js highly
+scalable, as it can process a high number of
+requests without waiting for any function to return
+results.
+Node.JS - Callbacks Concept
+The syntax of implementing callback in Node.js is as
+follows:
+Example code:
+A Simple Web Server
+▪The static HTML websites are coming from a PHP
+or ASP background, you’re probably used to the
+idea of the web server (Apache, IIS, etc.) serving your
+static files so that a browser can view them over the
+network.
+▪Node.JS offers a different paradigm than that of a
+traditional web server: the app that you write is the
+web server. Node simply provides the framework for
+you to build a web server.4
+A Simple Web Server
+Here is a very basic server written for NodeJS:
+Include the HTTP Node.JS
+library
+When the server gets a
+request, send back “Hello
+World” in plain text.
+When the server is started,
+print a log message.
+Start listening for messages
+A Simple Web Server
+Here is a very basic server written for NodeJS:
+▪The NodeJS require() statement loads a module.
+We can require() modules included with Node.JS,
+or modules we've written ourselves.
+▪The http variable returned by require('http') can
+be used to make calls to the HTTP API.
+http.createServer () creates a Server object.
+A Simple Web Server
+This server returns
+the same response
+no matter what the
+request is.
+Routing
+Routing refers to the mechanism for serving the
+client the content it has asked for. For web -based
+client/server applications, the client specifies the
+desired content in the URL; specifically, the path
+and querystring .5
+Routing
+Example code of simple routing
+Serving Static Resources
+Static resources generally don’t change. When we
+'ve worked with Apache or IIS, we're probably used
+to just creating an HTML file, navigating to it, and
+having it delivered to the browser automatically.
+Node doesn’t work like that: we’re going to have to
+do the work of opening the file, reading it, and then
+sending its contents along to the browser. 6
+Serving Static Resources
+Example code of serving static resource (part 1)
+Serving Static Resources
+Example code of serving static resource (part 2)
+More Information
+▪Node.js Tutorial
+https://www.w3schools.com/nodejs/
+▪Node.js Tutorial
+https://www.tutorialspoint.com/nodejs/index.htm

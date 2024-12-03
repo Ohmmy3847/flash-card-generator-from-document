@@ -1,0 +1,92 @@
+[
+    {
+        "Name": "วิธีสร้างระบบข้อมูล",
+        "Image": "A simple illustration of a person creating a diagram with blocks and arrows.",
+        "Question": "วิธีสร้างระบบข้อมูลเป็นอย่างไร?",
+        "Answer": "เริ่มจากการทำความเข้าใจข้อมูลที่มีแล้วสร้างแบบจำลองข้อมูลด้วย DFD",
+        "Sound": "วิ้ง! สร้างแบบจำลองได้แล้ว!",
+        "Story": "น้องหมามาย เริ่มเรียนเรื่องการสร้างระบบข้อมูล",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "ส่วนประกอบของ DFD",
+        "Image": "A simple illustration of a diagram with the components of a DFD: Process, Data flow, Data store, External entity.",
+        "Question": "ส่วนประกอบของ DFD มีอะไรบ้าง?",
+        "Answer": "มี Process, Data flow, Data store, External entity",
+        "Sound": "ด๊อก! ส่วนประกอบสำคัญ!",
+        "Story": "น้องหมาเริ่มเรียนรู้เกี่ยวกับ DFD กับ Asst. Prof. Manop Phankokkruad, Ph.D.",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "การสร้าง DFD",
+        "Image": "A simple illustration of a person drawing a diagram with the steps to create a DFD.",
+        "Question": "เราจะสร้าง DFD ได้อย่างไร?",
+        "Answer": "เริ่มจากการทำ list ของกิจกรรมของธุรกิจ และสร้าง context diagram",
+        "Sound": "ต๊อก! ต๊อก! สร้าง DFD กัน!",
+        "Story": "น้องหมาเริ่มเรียนรู้การสร้าง DFD",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "ความผิดพลาดใน DFD",
+        "Image": "A simple illustration of a person making mistakes with a big X symbol.",
+        "Question": "อะไรคือความผิดพลาดที่พบบ่อยใน DFD?",
+        "Answer": "Syntax errors และ Semantics errors",
+        "Sound": "อ๊ะ! อ๊ะ! พบนี่ๆๆ",
+        "Story": "น้องหมาเรียนรู้เกี่ยวกับความผิดพลาดใน DFD",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "Logical DFD และ Physical DFD",
+        "Image": "A simple illustration of two diagrams: Logical DFD และ Physical DFD.",
+        "Question": "DFD ประเภทไหนที่มีความสำคัญต่อการออกแบบระบบ?",
+        "Answer": "Logical DFD และ Physical DFD ทั้งสองประเภทมีความสำคัญ",
+        "Sound": "ฮั่น! ฮั่น! ทั้งสองดี!",
+        "Story": "น้องหมาเรียนรู้เกี่ยวกับ DFD ประเภทต่างๆ",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "การวิเคราะห์ความต้องการ",
+        "Image": "A simple illustration of a person analyzing requirements with a magnifying glass.",
+        "Question": "เราจะวิเคราะห์ความต้องการได้อย่างไร?",
+        "Answer": "เริ่มจากการทำความเข้าใจความต้องการของลูกค้าและผู้ใช้",
+        "Sound": "จ๋ง! จ๋ง! ระบบที่ดี!",
+        "Story": "น้องหมาเริ่มเรียนรู้เกี่ยวกับการวิเคราะห์ความต้องการ",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "การออกแบบระบบ",
+        "Image": "A simple illustration of a person designing a system with building blocks.",
+        "Question": "เราจะออกแบบระบบได้อย่างไร?",
+        "Answer": "เริ่มจากการสร้างแบบจำลองระบบและใช้เครื่องมือ CASE",
+        "Sound": "ดิ้ง! ดิ้ง! ระบบเสร็จแล้ว!",
+        "Story": "น้องหมาเริ่มเรียนรู้เกี่ยวกับการออกแบบระบบ",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "การสร้าง DFD ขั้นสูง",
+        "Image": "A simple illustration of a person creating an advanced DFD with many components.",
+        "Question": "เราจะสร้าง DFD ขั้นสูงได้อย่างไร?",
+        "Answer": "เริ่มจากการสร้าง DFD ระดับ 0 และ DFD ระดับ 1",
+        "Sound": "ฮูฮา! ฮูฮา! DFD ขั้นสูงแล้ว!",
+        "Story": "น้องหมาเริ่มเรียนรู้เกี่ยวกับการสร้าง DFD ขั้นสูง",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "การตรวจสอบความถูกต้องของ DFD",
+        "Image": "A simple illustration of a person checking the accuracy of a DFD with a checklist.",
+        "Question": "เราจะตรวจสอบความถูกต้องของ DFD ได้อย่างไร?",
+        "Answer": "เริ่มจากการตรวจสอบ Syntax errors และ Semantics errors",
+        "Sound": "อ๊ะ! อ๊ะ! ถูกต้องแล้ว!",
+        "Story": "น้องหมาเริ่มเรียนรู้เกี่ยวกับการตรวจสอบความถูกต้องของ DFD",
+        "Character": "น้องหมา"
+    },
+    {
+        "Name": "การนำ DFD ไปใช้",
+        "Image": "A simple illustration of a person applying DFD to a real-world system.",
+        "Question": "เราจะนำ DFD ไปใช้ได้อย่างไร?",
+        "Answer": "เริ่มจากการใช้ DFD ในการออกแบบระบบและวิเคราะห์ความต้องการ",
+        "Sound": "วิ้ง! วิ้ง! ใช้ได้แล้ว!",
+        "Story": "น้องหมาเริ่มเรียนรู้เกี่ยวกับการนำ DFD ไปใช้",
+        "Character": "น้องหมา"
+    }
+]

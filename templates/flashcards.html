@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Adventure | Card {{ index + 1 }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6A5ACD;
+            --secondary-color: #7CB9E8;
+            --accent-color: #FFD700;
+            --background-color: #F0F8FF;
+            --text-color: #333333;
+        }
+        body {
+            font-family: 'Quicksand', 'Sarabun', sans-serif;
+            background: linear-gradient(135deg, var(--background-color), #E6E6FA);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: var(--primary-color);
+            text-align: center;
+        }
+        .progress {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        .progress-bar {
+            background-color: #E6E6FA;
+            height: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        .progress-bar-inner {
+            background-color: var(--secondary-color);
+            height: 100%;
+            transition: width 0.5s ease;
+        }
+        .character, .story {
+            background-color: #F8F8FF;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        .character:hover, .story:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .flashcard {
+            perspective: 1000px;
+            margin-bottom: 30px;
+        }
+        .flashcard-inner {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+        .flashcard-inner.flipped {
+            transform: rotateY(180deg);
+        }
+        .flashcard-front, .flashcard-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .flashcard-front {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+        .flashcard-back {
+            background-color: var(--accent-color);
+            color: var(--text-color);
+            transform: rotateY(180deg);
+        }
+        .flashcard-image {
+            max-width: 80%;
+            max-height: 200px;
+            object-fit: contain;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+        .question, .answer {
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .sound {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .nav-button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-button:hover {
+            background-color: #5648B3;
+            transform: scale(1.05);
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .bouncing {
+            animation: bounce 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Story Adventure</h1>
+        <div class="progress">
+            Card {{ index + 1 }} of {{ total }}
+            <div class="progress-bar">
+                <div class="progress-bar-inner" style="width: {{ (index + 1) / total * 100 }}%;"></div>
+            </div>
+        </div>
+        <div class="character">
+            <h2>Character</h2>
+            <p>{{ card.Character }}</p>
+        </div>
+        <div class="story">
+            <h2>Story</h2>
+            <p>{{ card.Story }}</p>
+        </div>
+        <div class="flashcard">
+            <div class="flashcard-inner" id="flashcard">
+                <div class="flashcard-front">
+                    <h2>{{ card.Name }}</h2>
+                    <img src="data:image/png;base64,{{ card.Image }}" alt="{{ card.Name }}" class="flashcard-image">
+                    <p class="question bouncing">{{ card.Question }}</p>
+                </div>
+                <div class="flashcard-back">
+                    <h2>Answer</h2>
+                    <p class="answer">{{ card.Answer }}</p>
+                    <div class="sound">
+                        <h3>Sound</h3>
+                        <p>{{ card.Sound }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            {% if index > 0 %}
+            <a href="{{ url_for('show_story', index=index-1) }}" class="nav-button">&#8592; Previous</a>
+            {% else %}
+            <span></span>
+            {% endif %}
+            {% if index < total - 1 %}
+            <a href="{{ url_for('show_story', index=index+1) }}" class="nav-button">Next &#8594;</a>
+            {% else %}
+            <span></span>
+            {% endif %}
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const flashcard = document.getElementById('flashcard');
+            flashcard.addEventListener('click', function() {
+                this.classList.toggle('flipped');
+            });
+        });
+    </script>
+</body>
+</html>

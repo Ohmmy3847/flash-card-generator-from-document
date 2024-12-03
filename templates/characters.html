@@ -1,0 +1,104 @@
+<!-- templates/characters.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผจญภัยกับตัวละคร | Character Adventure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6A5ACD;
+            --secondary-color: #7CB9E8;
+            --accent-color: #FFD700;
+            --background-color: #F0F8FF;
+            --text-color: #333333;
+        }
+        body {
+            font-family: 'Quicksand', 'Sarabun', sans-serif;
+            background: linear-gradient(135deg, var(--background-color), #E6E6FA);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        .character-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .character-item {
+            background-color: #FFFFFF;
+            border-radius: 15px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .character-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .character-item h2 {
+            color: var(--secondary-color);
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        .btn {
+            background-color: var(--accent-color);
+            color: var(--text-color);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #FFE55C;
+            transform: scale(1.05);
+        }
+        .character-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .bouncing {
+            animation: bounce 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ผจญภัยกับตัวละคร<br><small>Character Adventure</small></h1>
+        <div class="character-list">
+            {% for character in characters %}
+            <div class="character-item">
+                <div class="character-icon bouncing">
+                    {% set icon = ['🦸', '🧙', '🦊', '🐼', '🦁', '🐵', '🐰', '🐶', '🐱', '🐻'] | random %}
+                    {{ icon }}
+                </div>
+                <h2>{{ character }}</h2>
+                <a href="{{ url_for('show_story', index=loop.index0) }}" class="btn">เริ่มต้นเรื่องราว</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

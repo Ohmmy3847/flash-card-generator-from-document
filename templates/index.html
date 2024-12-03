@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Adventure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6A5ACD;
+            --secondary-color: #7CB9E8;
+            --accent-color: #FFD700;
+            --background-color: #F0F8FF;
+            --text-color: #333333;
+        }
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(135deg, var(--background-color), #E6E6FA);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+        }
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        p {
+            color: var(--text-color);
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .upload-form {
+            background: linear-gradient(135deg, #F5F5F5, #E6E6FA);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        .upload-form:hover {
+            transform: translateY(-5px);
+        }
+        .file-input {
+            display: none;
+        }
+        .file-label {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        .file-label:hover {
+            background-color: var(--primary-color);
+            transform: scale(1.05);
+        }
+        .submit-btn {
+            background-color: var(--accent-color);
+            color: var(--text-color);
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.1em;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        .submit-btn:hover {
+            background-color: #FFE55C;
+            transform: scale(1.05);
+        }
+        .submit-btn:disabled {
+            background-color: #D3D3D3;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .mascot {
+            max-width: 150px;
+            transition: transform 0.5s ease;
+        }
+        .mascot:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        #file-name {
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='mascot.png') }}" alt="Friendly Mascot" class="mascot floating">
+        <h1>ผจญภัยในโลกแห่ง Flashcard!</h1>
+        <p>มาร่วมเดินทางสู่การเรียนรู้สุดตื่นเต้นกันเถอะ!!</p>
+        <p>อัปโหลดไฟล์ PDF แล้วผจญภัยไปกับโลกแห่งการเรียนรู้ Flashcard!!!</p>
+        <div class="upload-form">
+            <form action="{{ url_for('handle_extract') }}" method="post" enctype="multipart/form-data">
+                <input type="file" name="pdf" id="pdf-upload" accept="application/pdf" required class="file-input">
+                <label for="pdf-upload" class="file-label">[เลือกไฟล์ PDF ของคุณ]</label>
+                <p id="file-name">ยังไม่ได้เลือกไฟล์</p>
+                <button type="submit" class="submit-btn" id="submit-btn" disabled>เริ่มการผจญภัย!</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fileInput = document.getElementById('pdf-upload');
+            const fileName = document.getElementById('file-name');
+            const submitBtn = document.getElementById('submit-btn');
+
+            fileInput.addEventListener('change', function(e) {
+                if (e.target.files.length > 0) {
+                    fileName.textContent = 'Selected: ' + e.target.files[0].name;
+                    submitBtn.disabled = false;
+                } else {
+                    fileName.textContent = 'No file chosen yet';
+                    submitBtn.disabled = true;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

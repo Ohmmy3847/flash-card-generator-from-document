@@ -1,0 +1,92 @@
+[
+    {
+        "Name": "ระบบสารสนเทศและการออกแบบ",
+        "Image": "A picture of a person working on a computer with a flowchart on the screen, with a caption: 'A system analyst designing a system'",
+        "Question": "อะไรคือระบบสารสนเทศและการออกแบบ?",
+        "Answer": "ระบบสารสนเทศและการออกแบบ คือ การใช้แบบจำลองเพื่อสร้างและพัฒนาระบบในธุรกิจและการพัฒนาไอที",
+        "Sound": "คลิก-คลิก-คลิก (Click-Click-Click)",
+        "Story": "เรื่องราวของน้องๆ ที่ต้องการสร้างระบบสารสนเทศเพื่อช่วยเหลือธุรกิจของครอบครัว",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "การสร้างแบบจำลองกระบวนการ",
+        "Image": "A picture of a flowchart with arrows and boxes, with a caption: 'A process model'",
+        "Question": "อะไรคือการสร้างแบบจำลองกระบวนการ?",
+        "Answer": "การสร้างแบบจำลองกระบวนการ คือ การใช้แบบจำลองเพื่ออธิบายกระบวนการในระดับประเภท",
+        "Sound": "ฟลาว-ฟลาว-ฟลาว (Flow-Flow-Flow)",
+        "Story": "น้องอ้อยเริ่มสร้างแบบจำลองกระบวนการเพื่อช่วยเหลือธุรกิจของครอบครัว",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "การสร้าง Data Flow Diagram (DFD)",
+        "Image": "A picture of a DFD with arrows and boxes, with a caption: 'A Data Flow Diagram'",
+        "Question": "อะไรคือ Data Flow Diagram (DFD)?",
+        "Answer": "DFD คือ การแสดงภาพการไหลของข้อมูลผ่านระบบสารสนเทศ",
+        "Sound": "ดาต้า-ดาต้า-ดาต้า (Data-Data-Data)",
+        "Story": "น้องอ้อยเริ่มสร้าง DFD เพื่อช่วยเหลือธุรกิจของครอบครัว",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "องค์ประกอบของ DFD",
+        "Image": "A picture of a DFD with arrows and boxes, highlighting the different components, with a caption: 'Elements of a DFD'",
+        "Question": "อะไรคือองค์ประกอบของ DFD?",
+        "Answer": "องค์ประกอบของ DFD ได้แก่ กระบวนการ, การไหลของข้อมูล, แหล่งข้อมูล, และหน่วยงานภายนอก",
+        "Sound": "เอ-บี-ซี-ดี (A-B-C-D)",
+        "Story": "น้องอ้อยเรียนรู้เกี่ยวกับองค์ประกอบของ DFD",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "การสร้าง DFD",
+        "Image": "A picture of a person creating a DFD, with a caption: 'Creating a DFD'",
+        "Question": "วิธีการสร้าง DFD?",
+        "Answer": "การสร้าง DFD ต้องเริ่มจากข้อมูลในกรณีการใช้งานและคำจำกัดความของความต้องการ",
+        "Sound": "ครีเอท-ครีเอท-ครีเอท (Create-Create-Create)",
+        "Story": "น้องอ้อยเริ่มสร้าง DFD",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "แผนภาพบริบท",
+        "Image": "A picture of a context diagram, with a caption: 'A context diagram'",
+        "Question": "อะไรคือแผนภาพบริบท?",
+        "Answer": "แผนภาพบริบท คือ แผนภาพที่แสดงถึงการโต้ตอบระหว่างกระบวนการหรือระบบคอมพิวเตอร์กับสภาพแวดล้อม",
+        "Sound": "คอนเทกซ์-คอนเทกซ์-คอนเทกซ์ (Context-Context-Context)",
+        "Story": "น้องอ้อยเรียนรู้เกี่ยวกับแผนภาพบริบท",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "แผนภาพระดับ 0",
+        "Image": "A picture of a level 0 diagram, with a caption: 'A level 0 diagram'",
+        "Question": "อะไรคือแผนภาพระดับ 0?",
+        "Answer": "แผนภาพระดับ 0 คือ แผนภาพที่แสดงถึงกระบวนการหลักของระบบและความสัมพันธ์ระหว่างกระบวนการ",
+        "Sound": "เลเวล-เลเวล-เลเวล (Level-Level-Level)",
+        "Story": "น้องอ้อยเรียนรู้เกี่ยวกับแผนภาพระดับ 0",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "แผนภาพระดับ 1",
+        "Image": "A picture of a level 1 diagram, with a caption: 'A level 1 diagram'",
+        "Question": "อะไรคือแผนภาพระดับ 1?",
+        "Answer": "แผนภาพระดับ 1 คือ แผนภาพที่แสดงถึงกระบวนการแต่ละกระบวนการในระดับ 0",
+        "Sound": "เลเวล-เลเวล-เลเวล (Level-Level-Level)",
+        "Story": "น้องอ้อยเรียนรู้เกี่ยวกับแผนภาพระดับ 1",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "ประเภทของ DFD",
+        "Image": "A picture of a logical and physical DFD, with a caption: 'Types of DFD'",
+        "Question": "มีประเภทของ DFD อะไรบ้าง?",
+        "Answer": "DFD สามารถแบ่งออกเป็น 2 ประเภท ได้แก่ DFD ทางตรรกะ (Logical) และ DFD ทางกายภาพ (Physical)",
+        "Sound": "ไทป์-ไทป์-ไทป์ (Type-Type-Type)",
+        "Story": "น้องอ้อยเรียนรู้เกี่ยวกับประเภทของ DFD",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    },
+    {
+        "Name": "การตรวจสอบ DFD",
+        "Image": "A picture of a person checking a DFD, with a caption: 'Validating a DFD'",
+        "Question": "วิธีการตรวจสอบ DFD?",
+        "Answer": "การตรวจสอบ DFD ต้องตรวจสอบความถูกต้องของ DFD และแก้ไขข้อผิดพลาด",
+        "Sound": "เชค-เชค-เชค (Check-Check-Check)",
+        "Story": "น้องอ้อยเรียนรู้เกี่ยวกับการตรวจสอบ DFD",
+        "Character": "น้องอ้อย นักออกแบบระบบ"
+    }
+]

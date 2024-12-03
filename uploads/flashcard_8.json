@@ -1,0 +1,92 @@
+[
+    {
+        "Name": "ระบบสารสนเทศและการออกแบบ",
+        "Image": "A picture of a person sitting in front of a computer with a puzzled expression, surrounded by papers and notes, with a lightbulb turning on above their head.",
+        "Question": "อะไรคือระบบสารสนเทศและการออกแบบ?",
+        "Answer": "ระบบสารสนเทศและการออกแบบ คือ กระบวนการวิเคราะห์และออกแบบระบบสารสนเทศเพื่อให้ตรงตามความต้องการของผู้ใช้",
+        "Sound": "อิอิอิ",
+        "Story": "เรื่องราวของน้องหมี ที่ต้องการสร้างระบบสารสนเทศเพื่อช่วยเหลือเพื่อนๆ ของเขา",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "การสร้างแบบจำลองกระบวนการ",
+        "Image": "A picture of a flowchart with arrows and boxes, with a magnifying glass zooming in on a specific part of the chart.",
+        "Question": "อะไรคือการสร้างแบบจำลองกระบวนการ?",
+        "Answer": "การสร้างแบบจำลองกระบวนการ คือ การใช้เครื่องมือและเทคนิคต่างๆ เพื่อสร้างแบบจำลองของกระบวนการในระบบ",
+        "Sound": "ฟิ้วฟิ้ว",
+        "Story": "น้องหมีต้องการสร้างแบบจำลองกระบวนการเพื่อช่วยเหลือเพื่อนๆ ของเขาในการทำงาน",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "องค์ประกอบของ DFD",
+        "Image": "A picture of a DFD with four main components: process, data flow, data store, and external entity, with a red circle highlighting each component.",
+        "Question": "อะไรคือองค์ประกอบของ DFD?",
+        "Answer": "องค์ประกอบของ DFD คือ กระบวนการ, ข้อมูลไหล, ข้อมูลเก็บ, และหน่วยงานภายนอก",
+        "Sound": "ดีดีดี",
+        "Story": "น้องหมีต้องการเรียนรู้เกี่ยวกับองค์ประกอบของ DFD เพื่อสร้างแบบจำลองกระบวนการที่ดี",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "การสร้าง DFD",
+        "Image": "A picture of a person drawing a DFD on a whiteboard, with a pencil and eraser nearby.",
+        "Question": "อะไรคือการสร้าง DFD?",
+        "Answer": "การสร้าง DFD คือ การใช้เครื่องมือและเทคนิคต่างๆ เพื่อสร้างแบบจำลองกระบวนการ",
+        "Sound": "ซุกซุก",
+        "Story": "น้องหมีต้องการสร้าง DFD เพื่อช่วยเหลือเพื่อนๆ ของเขาในการทำงาน",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "แผนภาพบริบท",
+        "Image": "A picture of a context diagram with a large circle representing the system, surrounded by smaller circles representing external entities.",
+        "Question": "อะไรคือแผนภาพบริบท?",
+        "Answer": "แผนภาพบริบท คือ แผนภาพที่แสดงถึงระบบและหน่วยงานภายนอกที่เกี่ยวข้อง",
+        "Sound": "ฮ่าฮ่า",
+        "Story": "น้องหมีต้องการสร้างแผนภาพบริบทเพื่อช่วยเหลือเพื่อนๆ ของเขาในการทำความเข้าใจระบบ",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "แผนภาพระดับ 0",
+        "Image": "A picture of a level 0 diagram with a single process and several external entities.",
+        "Question": "อะไรคือแผนภาพระดับ 0?",
+        "Answer": "แผนภาพระดับ 0 คือ แผนภาพที่แสดงถึงกระบวนการหลักของระบบ",
+        "Sound": "วิ้งวิ้ง",
+        "Story": "น้องหมีต้องการสร้างแผนภาพระดับ 0 เพื่อช่วยเหลือเพื่อนๆ ของเขาในการทำความเข้าใจกระบวนการหลัก",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "แผนภาพระดับ 1",
+        "Image": "A picture of a level 1 diagram with several processes and external entities.",
+        "Question": "อะไรคือแผนภาพระดับ 1?",
+        "Answer": "แผนภาพระดับ 1 คือ แผนภาพที่แสดงถึงกระบวนการรองของระบบ",
+        "Sound": "ตึกตึก",
+        "Story": "น้องหมีต้องการสร้างแผนภาพระดับ 1 เพื่อช่วยเหลือเพื่อนๆ ของเขาในการทำความเข้าใจกระบวนการรอง",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "แผนภาพระดับ 2",
+        "Image": "A picture of a level 2 diagram with several processes and external entities, with arrows showing the flow of data.",
+        "Question": "อะไรคือแผนภาพระดับ 2?",
+        "Answer": "แผนภาพระดับ 2 คือ แผนภาพที่แสดงถึงกระบวนการรายละเอียดของระบบ",
+        "Sound": "ซู่ซู่",
+        "Story": "น้องหมีต้องการสร้างแผนภาพระดับ 2 เพื่อช่วยเหลือเพื่อนๆ ของเขาในการทำความเข้าใจกระบวนการรายละเอียด",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "การตรวจสอบ DFD",
+        "Image": "A picture of a person checking a DFD for errors, with a magnifying glass and a red pen.",
+        "Question": "อะไรคือการตรวจสอบ DFD?",
+        "Answer": "การตรวจสอบ DFD คือ การตรวจสอบความถูกต้องของ DFD เพื่อให้แน่ใจว่าไม่มีข้อผิดพลาด",
+        "Sound": "ติกติก",
+        "Story": "น้องหมีต้องการตรวจสอบ DFD เพื่อให้แน่ใจว่าไม่มีข้อผิดพลาด",
+        "Character": "น้องหมี"
+    },
+    {
+        "Name": "ข้อผิดพลาดของ DFD",
+        "Image": "A picture of a DFD with errors highlighted in red, with a warning sign nearby.",
+        "Question": "อะไรคือข้อผิดพลาดของ DFD?",
+        "Answer": "ข้อผิดพลาดของ DFD คือ ข้อผิดพลาดที่เกิดขึ้นจากการสร้าง DFD เช่น ข้อผิดพลาดทางไวยกรณ์ และข้อผิดพลาดทางความหมาย",
+        "Sound": "อ๊ะอ๊ะ",
+        "Story": "น้องหมีต้องการเรียนรู้เกี่ยวกับข้อผิดพลาดของ DFD เพื่อหลีกเลี่ยงข้อผิดพลาด",
+        "Character": "น้องหมี"
+    }
+]
